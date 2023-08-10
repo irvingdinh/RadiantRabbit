@@ -7,7 +7,7 @@ const palette = {
 
 const theme = createTheme({
   colors: {
-    mainBackground: palette.white,
+    mainBackground: '#f9f2ea',
     mainText: palette.black
   },
   spacing: {
@@ -25,7 +25,8 @@ const theme = createTheme({
   textVariants: {
     defaults: {
       color: 'mainText',
-      fontSize: 14
+      fontFamily: 'Nunito_400Regular',
+      fontSize: 16
     }
   }
 })
